@@ -267,7 +267,7 @@
         </header>
         <div class="row">
           <div class="col-lg-8 mx-auto">
-            <form class="contact-form" name="contact" data-netlify="true" id="contact-form" method="post" action="">
+            <form class="contact-form" name="contact" data-netlify="true" data-netlify-recaptcha = "true" id="contact-form" method="post" action="">
               <div class="messages"></div>
               <div class="controls">
                 <div class="row">
@@ -286,6 +286,7 @@
                   <div class="col-md-12">
                     <textarea name="message" placeholder="Message for me *" rows="4" required="required" class="form-control"></textarea>
                   </div>
+                  <div class="mb-3" data-netlify-recaptcha = "true"></div>
                   <div class="col-md-12 text-center">
                     <button type="submit" class="btn btn-outline-primary">Send Message</button>
                   </div>
